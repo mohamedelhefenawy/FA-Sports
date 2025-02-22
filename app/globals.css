@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap'); */
+
+/* body {
+  @apply font-inter text-gray-900 bg-white;
+} */
+
+body {
+  background-image: url('../public/story-mode-background2@1x.png');  
+  background-repeat: no-repeat;
+  background-size: cover;
+  @apply font-inter text-gray-900 bg-white;
+  height: 100vh;
+
+
+}
