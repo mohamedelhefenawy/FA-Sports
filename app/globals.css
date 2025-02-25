@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   @apply font-inter text-gray-900 bg-white;
-  height: 100vh;
+  min-height: 100vh;
 
 
 }

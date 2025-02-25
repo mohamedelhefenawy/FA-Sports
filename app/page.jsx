@@ -3,11 +3,11 @@ import Span from "./Components/Span";
 
 export default function Home() {
  return(
-  <div className="flex">
-    <div className="w-[60%]">
+  <div className="flex flex-col lg:flex-row">
+    <div className="w-[80%] mx-auto lg:w-[60%]">
     <Global/>
     </div>
-    <div className="w-[40%]">
+    <div className="w-[80%] mx-auto lg:w-[40%] mb-3">
       <Span/>
     </div>
   </div>

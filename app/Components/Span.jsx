@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 export default function Span() {
     const router  = useRouter()
   return (
-    <div className='mt-56 w-[80%] mx-auto overflow-hidden'>
+    <div className='mt-20 lg:mt-56 w-[80%] mx-auto overflow-hidden'>
       <motion.div 
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}

@@ -7,7 +7,7 @@ import logo from "../../public/c3879a1e-9ce2-4ca5-b201-50b645e32c03.jpg";
 export default function Global() {
   return (
     <motion.div 
-      className="mt-56 mx-auto w-[70%] flex flex-col gap-11"
+      className="mt-10 lg:mt-56 mx-auto w-[70%] flex flex-col gap-11"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
